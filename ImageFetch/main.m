@@ -57,9 +57,7 @@ int main(int argc, const char * argv[]) {
         
         // success: log it with how many byte
         NSLog(@"read successfully,the file is %lu kb", (unsigned long) [readData length] / 1024);
-        
-    }
-    
-    // secussess
     return 0;
 }
+    
+    // secussess
