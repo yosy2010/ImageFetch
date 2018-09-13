@@ -10,8 +10,8 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-   
         
+        NSLog(@"started");
         // 1- create a url
         NSURL *url = [NSURL URLWithString:@"http://www.google.com/images/logos/ps_logo2.png"];
         
@@ -57,7 +57,8 @@ int main(int argc, const char * argv[]) {
         
         // success: log it with how many byte
         NSLog(@"read successfully,the file is %lu kb", (unsigned long) [readData length] / 1024);
-    return 0;
-}
+        return 0;
+    }
     
     // secussess
+}
